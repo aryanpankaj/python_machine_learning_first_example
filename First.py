@@ -63,4 +63,4 @@ for i in range(epoch):
     wh += X.T.dot(d_hiddenlayer) *lr
     bh += np.sum(d_hiddenlayer, axis=0,keepdims=True) *lr
 
-print("origional output ========= ",output)
+print("origional output ============= ",output)
